@@ -17,6 +17,7 @@ use editor::Editor;
 // Re-exporting Terminal so we can do `use crate::Terminal` instead of `use crate::terminal::Terminal`
 pub use document::Document;
 pub use editor::Position;
+pub use editor::SearchDirection;
 pub use row::Row;
 pub use terminal::Terminal;
 
